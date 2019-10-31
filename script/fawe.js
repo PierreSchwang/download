@@ -17,7 +17,7 @@ var blocks_hub = {
 }
 
 var projects = {
-	"Bukkit 1.13.2": {
+	"Spigot 1.13.2": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -43,7 +43,7 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Bukkit 1.8-1.12.2": {
+	"Spigot 1.8-1.12.2": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -210,4 +210,4 @@ var projects = {
 	},
 }
 
-projectDefault = "Bukkit 1.13.2";
+projectDefault = "Spigot 1.13.2";

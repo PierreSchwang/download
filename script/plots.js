@@ -12,7 +12,7 @@ var fawe = {
 }
 
 var projects = {
-	"Bukkit 1.13-1.14": {
+	"Spigot 1.13-1.14": {
 		"download": [
 			{
 				"label": "Download PlotSquared",
@@ -40,7 +40,7 @@ var projects = {
 		],
 		"config_path": "plugins"
     },
-    "Bukkit 1.8-1.12.2": {
+    "Spigot 1.8-1.12.2": {
         "download": [
             {
                 "label": "Download PlotSquared",
@@ -143,4 +143,4 @@ var projects = {
 	},
 }
 
-projectDefault = "Bukkit 1.13-1.14";
+projectDefault = "Spigot 1.13-1.14";

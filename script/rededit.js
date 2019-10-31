@@ -11,7 +11,7 @@ var redis = {
     "url": "https://redis.io/"
 }
 var projects = {
-    "Bukkit 1.13-1.14": {
+    "Spigot 1.13-1.14": {
 		"download": [
 			{
 				"label": "Download RedEdit",
@@ -31,7 +31,7 @@ var projects = {
         ],
         "config_path": "plugins"
     },
-    "Bukkit 1.7-1.12": {
+    "Spigot 1.7-1.12": {
 		"download": [
 			{
 				"label": "Download RedEdit",
@@ -52,4 +52,4 @@ var projects = {
         "config_path": "plugins"
     }
 }
-projectDefault = "Bukkit 1.13-1.14";
+projectDefault = "Spigot 1.13-1.14";
