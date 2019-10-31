@@ -12,11 +12,11 @@ var fawe = {
 }
 
 var projects = {
-	"bukkit 1.7-1.12": {
+	"Bukkit 1.13-1.14": {
 		"download": [
 			{
 				"label": "Download PlotSquared",
-				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
+				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Breaking/lastSuccessfulBuild/artifact/target/",
 				"regex": "PlotSquared-Bukkit",
 				"ext": "jar"
 			}
@@ -24,6 +24,34 @@ var projects = {
 		"dependencies": [
             fawe,
 			web_interface,
+            plotupload_interface,
+            {
+                "label": "HoloPlots (Holograms instead of signs)",
+                "url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/HoloPlots/"
+            },
+            {
+                "label": "Plot2Dynmap (Dynmap addon)",
+                "url": "https://github.com/IntellectualSites/plot2dynmap/releases"
+            },
+            {
+                "label": "PlotSquaredExpansion (PlaceholderAPI extension)",
+                "url": "https://github.com/IntellectualSites/PlotSquared-Expansion"
+            },
+		],
+		"config_path": "plugins"
+    },
+    "Bukkit 1.8-1.12.2": {
+        "download": [
+            {
+                "label": "Download PlotSquared",
+                "url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
+                "regex": "PlotSquared-Bukkit",
+                "ext": "jar"
+            }
+        ],
+        "dependencies": [
+            fawe,
+            web_interface,
             plotupload_interface,
             {
                 "label": "Plot2Dynmap (Dynmap addon)",
@@ -73,38 +101,10 @@ var projects = {
                 "label": "IslandPlots (Islands in ocean)",
                 "url": "https://www.spigotmc.org/resources/islandplots.9421/"
             },
-		],
-		"config_path": "plugins"
+        ],
+        "config_path": "plugins"
     },
-	"bukkit 1.13-1.14": {
-		"download": [
-			{
-				"label": "Download PlotSquared",
-				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Breaking/lastSuccessfulBuild/artifact/target/",
-				"regex": "PlotSquared-Bukkit",
-				"ext": "jar"
-			}
-		],
-		"dependencies": [
-            fawe,
-			web_interface,
-            plotupload_interface,
-            {
-                "label": "HoloPlots (Holograms instead of signs)",
-                "url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/HoloPlots/"
-            },
-            {
-                "label": "Plot2Dynmap (Dynmap addon)",
-                "url": "https://github.com/IntellectualSites/plot2dynmap/releases"
-            },
-            {
-                "label": "PlotSquaredExpansion (PlaceholderAPI extension)",
-                "url": "https://github.com/IntellectualSites/PlotSquared-Expansion"
-            },
-		],
-		"config_path": "plugins"
-    },
-    "nukkit": {
+    "Nukkit": {
 		"download": [
 			{
 				"label": "Download PlotSquared",
@@ -115,7 +115,7 @@ var projects = {
             fawe,
             {
                 "label": "Download DBLib",
-                "url": "https://github.com/fromgate/DbLib/releases"
+                "url": "https://github.com/fromgate/DbLib/releases/download/0.2.3/DbLib.jar"
             }
             
 		],
@@ -143,4 +143,4 @@ var projects = {
 	},
 }
 
-projectDefault = "bukkit 1.7-1.12";
+projectDefault = "Bukkit 1.13-1.14";

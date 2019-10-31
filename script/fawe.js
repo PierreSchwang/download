@@ -17,33 +17,7 @@ var blocks_hub = {
 }
 
 var projects = {
-	"bukkit 1.7-1.12": {
-		"download": [
-			{
-				"label": "Download FAWE",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
-				"regex": "FastAsyncWorldEdit-bukkit",
-				"ext": "jar"
-			},
-			{
-				"label": "Download FAVS",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
-				"regex": "FastAsyncVoxelSniper-favs",
-				"ext": "jar"
-			},
-			{
-				"label": "WorldEdit & VoxelSniper will be installed automatically"
-			}
-		],
-		"dependencies": [
-			web_interface,
-			asset_interface,
-			vault,
-			blocks_hub
-		],
-		"config_path": "plugins"
-	},
-	"bukkit 1.13": {
+	"Bukkit 1.13.2": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -69,26 +43,53 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"nukkit": {
+	"Bukkit 1.8-1.12.2": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"regex": "FastAsyncWorldEdit-bukkit",
+				"ext": "jar"
+			},
+			{
+				"label": "Download FAVS",
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"regex": "FastAsyncVoxelSniper-favs",
+				"ext": "jar"
+			},
+			{
+				"label": "WorldEdit & VoxelSniper will be installed automatically"
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface,
+			vault,
+			blocks_hub
+		],
+		"config_path": "plugins"
+	},
+	"Nukkit": {
 		"download": [
 			{
 				"label": "Download FAWE",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-nukkit",
 				"ext": "jar"
+			},
+			{
+				"label": "Install DBLib",
+				"url": "https://github.com/fromgate/DbLib/releases/download/0.2.3/DbLib.jar"
 			}
 		],
 		"dependencies": [
 			web_interface,
 			asset_interface,
-			{
-				"label": "Install DBLib",
-				"url": "https://github.com/fromgate/DbLib/releases"
-			}
+
 		],
 		"config_path": "plugins"
 	},
-	"forge 1.12": {
+	"Forge 1.12": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -108,7 +109,7 @@ var projects = {
 		],
 		"config_path": "mods"
 	},
-	"forge 1.11": {
+	"Forge 1.11": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -147,7 +148,7 @@ var projects = {
 		],
 		"config_path": "mods"
 	},
-	"forge 1.9.4": {
+	"Forge 1.9.4": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -167,7 +168,7 @@ var projects = {
 		],
 		"config_path": "mods"
 	},
-	"forge 1.8.9": {
+	"Forge 1.8.9": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -187,11 +188,11 @@ var projects = {
 		],
 		"config_path": "mods"
 	},
-	"forge 1.7.10": {
+	"Forge 1.7.10": {
 		"download": [
 			{
 				"label": "Download FAWE",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/1231/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge1710",
 				"ext": "jar"
 			},
@@ -209,4 +210,4 @@ var projects = {
 	},
 }
 
-projectDefault = "bukkit 1.7-1.12";
+projectDefault = "Bukkit 1.13.2";
