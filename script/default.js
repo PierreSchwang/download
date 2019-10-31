@@ -5,6 +5,12 @@ if (query == "") {
 	query = query.substring(1);
 }
 
+function loadDefer(elem) {
+	if(elem.getAttribute('defer-src')) {
+		elem.setAttribute('src',elem.getAttribute('defer-src'));
+	}
+}
+
 function init() {
 	var selector = document.getElementById("version_select");
 
@@ -19,7 +25,7 @@ function init() {
 			selector.value = option.value;
 		}
 	}
-	
+
 	generateLinks();
 	
 	// display script
@@ -27,7 +33,15 @@ function init() {
 	for (var key in Object.keys(scriptElems)) {
 		scriptElems[key].style.display = 'table';
 	}
+
+	// Load deffered images
+	var imgDefer = document.getElementsByTagName('img');
+	for (var i=0; i<imgDefer.length; i++) loadDefer(imgDefer[i]);
+
+	var iframeDefer = document.getElementsByTagName('iframe');
+	for (var i=0; i<iframeDefer.length; i++) loadDefer(iframeDefer[i]);
 }
+document.addEventListener("DOMContentLoaded", init);
 
 function generateLinks() {
 	var selector = document.getElementById("version_select");

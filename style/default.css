@@ -87,7 +87,7 @@ a {
     font-size:18px;
     overflow:hidden;
     padding-left:10%;
-    position:relative text-shadow:#222 0 0 3px
+    position:relative;
 }
 .dlbutton{
     color:#FFF;
@@ -111,6 +111,7 @@ ul>li,ul>noscript>li{
     font-style:italic
 }
 body{
+    font-display: swap;
     overflow-x:hidden;
     background:#eee;
     background:-moz-radial-gradient(center,ellipse cover,#eeeeee 0,#eeeeee 100%);
