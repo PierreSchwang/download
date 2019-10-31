@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P:400");
+
+#banner{
+    font-family:"Press Start 2P",sans-serif;
+    position: relative;
+    font-weight:400;
+    color:#FF8C00;
+    font-size:500%;
+    text-shadow:1px 1px 0 hsl(17,50%,39%),2px 2px 0 hsl(17,50%,38%),3px 3px 0 hsl(17,50%,37%),4px 4px 0 hsl(17,50%,36%),5px 5px 0 hsl(17,50%,34%),6px 6px 0 hsl(17,50%,32%),7px 7px 0 hsl(17,50%,31%),8px 8px 0 hsl(17,50%,30%),0 0 5px #000,0px 0px 8px #000,2px 2px 8px #000,4px 4px 8px #000,6px 6px 8px #000,10px 10px 8px #000;
+    display:block;
+    height:160px;
+    line-height: 160px;
+}
+.b-select-wrap > select {
+    color:#0645AD;
+}
