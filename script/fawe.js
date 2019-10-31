@@ -17,6 +17,32 @@ var blocks_hub = {
 }
 
 var projects = {
+	"Spigot 1.14.4": {
+		"download": [
+			{
+				"label": "Not released yet :P",
+				"url": "",
+				"regex": "FastAsyncWorldEdit-bukkit",
+				"ext": "jar"
+			},
+			{
+				"label": "Download FAVS",
+				"url": "http://ci.athion.net/job/FastAsyncVoxelSniper-1.13+/lastSuccessfulBuild/artifact/build/libs/",
+				"regex": "FastAsyncVoxelSniper-favs",
+				"ext": "jar"
+			},
+			{
+				"label": "Do not install WorldEdit (FAWE is a replacement)"
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface,
+			vault,
+			blocks_hub
+		],
+		"config_path": "plugins"
+	},
 	"Spigot 1.13.2": {
 		"download": [
 			{
