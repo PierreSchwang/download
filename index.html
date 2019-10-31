@@ -105,7 +105,7 @@ a {
     padding:.5em;
 }
 
-ul>li{
+ul>li,ul>noscript>li{
     margin:0 0 1em 0;
 	display:table;
 }
@@ -316,6 +316,9 @@ b{
 }
 .goo:focus{
     outline:0
+}
+.script {
+	display: none;
 }
 </style>
 <script>
@@ -585,6 +588,12 @@ function init() {
 	}
 	
 	generateLinks();
+	
+	// display script
+	var scriptElems = document.getElementsByClassName('script');
+	for (var key in Object.keys(scriptElems)) {
+		scriptElems[key].style.display = 'table';
+	}
 }
 
 function generateLinks() {
@@ -660,11 +669,10 @@ function generateLinks() {
                     <h2>
                         <div>Download FastAsyncWorldEdit (FAWE)</div>
                     </h2>
-                    <h3 style="background:#CCC"><i>Please ensure the correct platform & version is selected above.</i></h3>
+                    <h3 class="label script">Please ensure the correct platform & version is selected above.</i></h3>
                     <h3>
                         <ul id="download">
-                            
-                            
+                            <noscript><li class="dlbutton"><a href="http://ci.athion.net/view/%20%20FastAsyncWorldEdit%20+%20FAVS/">From ci.athion.net</li></noscript>
                         </ul>
                     </h3>
                 </li>
@@ -674,8 +682,11 @@ function generateLinks() {
                     </h2>
                 </li>
                 <h3>
-                    <ul id="dependencies">
-                       
+                    <ul id="dependencies">			
+						<noscript><li class="dlbutton"><a href="https://www.dropbox.com/s/pyumuk30ce1ocdi/FaweUpload.zip?dl=1">Web interface (Instead of using the public one)</li></noscript>
+						<noscript><li class="dlbutton"><a href="https://empcraft.com/assetpack/source.zip">Asset interface - to host private assets</li></noscript>
+						<noscript><li class="dlbutton"><a href="https://www.dropbox.com/s/pyumuk30ce1ocdi/FaweUpload.zip?dl=1">BlocksHub - integration with third party logging plugins on Spigot</li></noscript>
+						<noscript><li class="dlbutton"><a href="https://github.com/fromgate/DbLib/releases">DBLib - Nukkit database bindings</li></noscript>
                     </ul>
                 </h3>
                 <li>
