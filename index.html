@@ -1,0 +1,714 @@
+<HTML>
+    <HEAD>
+        <link rel="icon" href="data:;base64,=">
+        <TITLE>Download FAWE</TITLE>
+
+        <style>
+@import url("https://fonts.googleapis.com/css?family=Exo:400");
+
+.b-select-wrap > select {
+    -webkit-font-smoothing:antialiased;
+    font-smooth:always;
+    font:400 3rem 'Exo',sans-serif;
+    background-color: #BBB;
+    padding: 0 10px 0 10px;
+    color:#2c2f33;
+    padding-right: 32px;
+    text-decoration: underline;
+}
+.b-select-wrap {
+    background: #CCC;
+    color: #333;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-top: -6px;
+    border-radius:1px;
+    border:2px solid #AAA;
+}
+
+.b-select-wrap:after {
+    content: "▾";
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    pointer-events: none;    
+}
+
+.b-select {
+    width: 100%;
+    background-color: #ececec;
+    border: 0;
+    outline: none;
+    -webkit-appearance: none; /* for webkit browsers */
+    -moz-appearance: none; /* for firefox */
+    appearance: none; /* for modern browsers */
+}
+
+/* remove default caret for ie */
+.b-select::-ms-expand {
+   display:none;
+}
+
+
+#nav,.navlink{
+    height:50px
+}
+#banner{
+    text-align:center
+}
+.navlink,.dlbutton{
+    transition:border .5s,background .5s
+}
+.navlink:hover{
+    background:#AAA
+}
+.navlink:active{
+    background:#777
+}
+#button{
+    display:inline-block
+}
+.dlbutton:hover {
+    border-color:#2c2f33
+}
+.dlbutton:active {
+    color:#FFF;
+    background:#2c2f33
+}
+.dlbutton,.navlink{
+    text-decoration:inherit
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+#nav{
+    background:#CCC;
+    color:#333;
+    font-size:18px;
+    overflow:hidden;
+    padding-left:10%;
+    position:relative text-shadow:#222 0 0 3px
+}
+.dlbutton{
+    color:#FFF;
+    background:#7289da;
+    border: 3px solid #7289da;
+    font-style:normal;
+    font-weight: bold;
+    border-radius:6px;
+    padding:.5em;
+}
+
+ul>li{
+    margin:0 0 1em 0;
+	display:table;
+}
+.label{
+    list-style-type:disc;
+    color:#333;
+    background:#CCC;
+    padding:.5em;
+    font-style:italic
+}
+body{
+    overflow-x:hidden;
+    background:#eee;
+    background:-moz-radial-gradient(center,ellipse cover,#eeeeee 0,#eeeeee 100%);
+    background:-webkit-radial-gradient(center,ellipse cover,#eeeeee 0,#eeeeee 100%);
+    background:radial-gradient(ellipse at center,#eeeeee 0,#eeeeee 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee',endColorstr='#eeeeee',GradientType=1);
+    color:#333;
+    left:0;
+    margin:0;
+    padding:0;
+    top:0;
+    -webkit-font-smoothing:antialiased;
+    font-smooth:always;
+    font:400 13px 'Exo',sans-serif
+}
+#button{
+    line-height:50px;
+    margin-left:5px
+}
+.navlink{
+    color:#333;
+    padding:8px;
+    margin:12px;
+    border-radius:6px
+}
+h1{
+    color:#333;
+    font-size:3rem;
+    font-weight:400;
+    text-align:center
+}
+h2{
+    color:#333;
+    font-size:2rem;
+    font-weight:400;
+    text-align:left;
+	margin:0px;
+}
+h3{
+    color:#333;
+    font-size:1rem;
+    padding:10px;
+    font-weight:400;
+    text-align:left
+}
+input[type=file],input[type=submit],input[type=text]{
+    cursor:pointer;
+    font:150% Exo,sans-serif;
+    width:100%;
+}
+table{
+    background:linear-gradient(#303030,#343434);
+    background:-moz-linear-gradient(#303030,#343434);
+    background:-o-linear-gradient(#303030,#343434);
+    background:-webkit-linear-gradient(#303030,#343434);
+    border-collapse:collapse;
+    table-layout:auto;
+    width:100%
+}
+td{
+    text-align:left
+}
+#box{
+    margin-bottom:20px
+}
+input[type=file]:focus,input[type=submit]:focus,input[type=text]:focus{
+    outline:transparent 0
+}
+input[type=text]{
+    background-color:#444;
+    border:0
+}
+input[type=submit]{
+    background:#444;
+    border:1px solid #666;
+    box-shadow:0 0 1px red;
+    color:#EEE
+}
+input[type=submit]:hover{
+    background-color:#3C3
+}
+input[type=submit]:active{
+    background-color:#393
+}
+input[type=file]{
+    background:-moz-repeating-linear-gradient(45deg,#535353,#575757 55%,#575757 10px,#535353 45%);
+    background:-o-repeating-linear-gradient(45deg,#535353,#575757 55%,#575757 10px,#535353 45%);
+    background:repeating-linear-gradient(45deg,#535353,#575757 55%,#575757 10px,#535353 45%);
+    background:-webkit-repeating-linear-gradient(45deg,#535353,#575757 55%,#575757 10px,#535353 45%);
+    border-bottom:4px solid #444;
+    border-radius:5px;
+    border-top:4px solid #888;
+    transition:background 1s
+}
+input[type=file]:active,input[type=file]:hover{
+    background-color:#666;
+    transition:background 1s
+}
+b{
+    font-weight:500
+}
+::selection{
+    background:#B22
+}
+::-moz-selection{
+    background:#B22
+}
+@keyframes slide{
+    from{
+        transform:translateY(50px);
+        opacity:0
+    }
+    to{
+        opacity:1;
+        transform:translateY(0%)
+    }
+}
+@-webkit-keyframes slide{
+    from{
+        opacity:0;
+        -webkit-transform:translateY(50px)
+    }
+    to{
+        opacity:1;
+        -webkit-transform:translateY(0%)
+    }
+}
+@keyframes banner{
+    0%{
+        opacity:0;
+        text-shadow:0 0 40px #BB2222,0 0 20px #BB2222,0 0 10px #BB2222,0 0 80px #B22;
+        letter-spacing:20px;
+        transform:translate(8px,8px) scale(1.3)
+    }
+    60%{
+        opacity:1;
+        text-shadow:0 0 1px #B22;
+        letter-spacing:auto;
+        transform:translate(8px,8px) scale(1)
+    }
+    80%{
+        text-shadow:0 0 1px #000;
+        transform:translate(8px,8px)
+    }
+    100%{
+        text-shadow:auto;
+        transform:translate(0,0)
+    }
+}
+@-webkit-keyframes banner{
+    0%{
+        opacity:0;
+        text-shadow:0 0 40px #BB2222,0 0 20px #BB2222,0 0 10px #BB2222,0 0 80px #B22;
+        letter-spacing:20px;
+        -webkit-transform:translate(8px,8px) scale(1.3)
+    }
+    60%{
+        opacity:1;
+        text-shadow:0 0 1px #B22;
+        letter-spacing:auto;
+        -webkit-transform:translate(8px,8px) scale(1)
+    }
+    80%{
+        text-shadow:0 0 1px #000;
+        -webkit-transform:translate(8px,8px)
+    }
+    100%{
+        text-shadow:auto;
+        -webkit-transform:translate(0,0)
+    }
+}
+#banner{
+    -webkit-animation:banner 4s;
+    -moz-animation:banner 4s;
+    -ms-animation:banner 4s;
+    -o-animation:banner 4s;
+    animation:banner 4s
+}
+#banner{
+    font-family:"Arial Black",Arial,sans-serif;
+    font-weight:700;
+    color:#b22;
+    font-size:1000%;
+    text-shadow:1px 1px 0 hsl(0,50%,39%),2px 2px 0 hsl(0,50%,38%),3px 3px 0 hsl(0,50%,37%),4px 4px 0 hsl(0,50%,36%),5px 5px 0 hsl(0,50%,34%),6px 6px 0 hsl(0,50%,32%),7px 7px 0 hsl(0,50%,31%),8px 8px 0 hsl(0,50%,30%),0 0 5px rgba(0,0,0,.05),1px 1px 3px rgba(0,0,0,.2),2px 2px 5px rgba(0,0,0,.2),4px 4px 10px rgba(0,0,0,.2),8px 8px 10px rgba(0,0,0,.2),16px 16px 20px rgba(0,0,0,.3);
+    display:block;
+    font-weight:700;
+    height:160px
+}
+#main{
+    margin:0 20% 0 20%
+}
+.goo{
+    color:#333;
+    display:inline;
+    box-decoration-break:clone;
+    padding:.5rem 1rem
+}
+.goo:focus{
+    outline:0
+}
+</style>
+<script>
+var web_interface = {
+	"label": "Web interface (Instead of using the public one)",
+	"url": "https://www.dropbox.com/s/pyumuk30ce1ocdi/FaweUpload.zip?dl=1"
+}
+var asset_interface = {
+	"label": "Asset interface - to host private assets",
+	"url": "https://empcraft.com/assetpack/source.zip"
+}
+
+var vault = {
+	"label": "Vault - for persistent toggles on Spigot",
+	"url": "https://dev.bukkit.org/bukkit-plugins/vault/"
+}
+var blocks_hub = {
+	"label": "BlocksHub - integration with third party logging plugins on Spigot",
+	"url": "https://github.com/boy0001/FastAsyncWorldedit/wiki/Third-party-loggers"
+}
+
+var projects = {
+	"bukkit": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-bukkit",
+				"ext": "jar"
+			},
+			{
+				"label": "Download FAVS",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncVoxelSniper-favs",
+				"ext": "jar"
+			},
+			{
+				"label": "WorldEdit & VoxelSniper will be installed automatically"
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface,
+			vault,
+			blocks_hub
+		],
+		"config_path": "plugins"
+	},
+	"bukkit 1.13": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit-Breaking/lastSuccessfulBuild/artifact/target/",
+				],
+				"regex": "FastAsyncWorldEdit-bukkit",
+				"ext": "jar"
+			},
+			{
+				"label": "Download FAVS",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncVoxelSniper-1.13+/lastSuccessfulBuild/artifact/build/libs/",
+				],
+				"regex": "FastAsyncVoxelSniper-favs",
+				"ext": "jar"
+			},
+			{
+				"label": "Do not install WorldEdit (FAWE is a replacement)"
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface,
+			vault,
+			blocks_hub
+		],
+		"config_path": "plugins"
+	},
+	"nukkit": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-nukkit",
+				"ext": "jar"
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface,
+			{
+				"label": "Install DBLib",
+				"url": "https://github.com/fromgate/DbLib/releases"
+			}
+		],
+		"config_path": "plugins"
+	},
+	"forge 1.12": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-forge112",
+				"ext": "jar"
+			},
+			{
+				"label": "Install WorldEdit into mods",
+				"urls": ["https://minecraft.curseforge.com/projects/worldedit/files/2460570"],
+				
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
+	},
+	"forge 1.11": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-forge111",
+				"ext": "jar"
+			},
+			{
+				"label": "Install WorldEdit into mods",
+				"urls": ["https://minecraft.curseforge.com/projects/worldedit/files/2355945"],
+				
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
+	},
+	"forge 1.10": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-forge110",
+				"ext": "jar"
+			},
+			{
+				"label": "Install WorldEdit into mods",
+				"urls": ["https://minecraft.curseforge.com/projects/worldedit/files/2328371"],
+				
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
+	},
+	"forge 1.9.4": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-forge194",
+				"ext": "jar"
+			},
+			{
+				"label": "Install WorldEdit into mods",
+				"urls": ["https://minecraft.curseforge.com/projects/worldedit/files/2309681"],
+				
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
+	},
+	"forge 1.8.9": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-forge189",
+				"ext": "jar"
+			},
+			{
+				"label": "Install WorldEdit into mods",
+				"urls": ["https://minecraft.curseforge.com/projects/worldedit/files/2275930"],
+				
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
+	},
+	"forge 1.7.10": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"urls": [
+					"http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+					"https://ci.codemc.io/job/IntellectualSites/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/"
+				],
+				"regex": "FastAsyncWorldEdit-forge1710",
+				"ext": "jar"
+			},
+			{
+				"label": "Install WorldEdit into mods",
+				"urls": ["https://minecraft.curseforge.com/projects/worldedit/files/2309699"],
+				
+			}
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
+	},
+}
+
+var query = window.location.search;
+if (query == "") {
+	query = "bukkit";
+} else {
+	query = query.substring(1);
+}
+
+function init() {
+	var selector = document.getElementById("version_select");
+
+	var i = 1;
+	for (var version of Object.keys(projects)) {
+		i++;
+		var option = document.createElement("option");
+		option.text = version;
+		option.value = i + "";
+		selector.add(option);
+		if (query == version) {
+			selector.value = option.value;
+		}
+	}
+	
+	generateLinks();
+}
+
+function generateLinks() {
+	var selector = document.getElementById("version_select");
+	var downloadDom = document.getElementById("download");
+	var dependenciesDom = document.getElementById("dependencies");
+	var config_path = document.getElementById("config_path");
+	
+	downloadDom.innerHTML = "";
+	dependenciesDom.innerHTML = "";
+	
+	var selected = selector.options[selector.selectedIndex];
+	var project = projects[selected.text];
+	
+	var downloads = project["download"];
+	for (var key of Object.keys(downloads)) {
+		var dl = downloads[key]
+		
+		var label = dl["label"];
+		var entry = document.createElement('li');
+		if (dl.hasOwnProperty("urls")) {
+			entry.classList.add('dlbutton');
+			var urls = dl["urls"];
+			var url = urls[0];
+			if (dl.hasOwnProperty("regex")) {
+				url = "https://empcraft.com/download?url=" + encodeURIComponent(url) + "&name=" + dl["regex"] + "&ext=" + dl["ext"];
+			}
+			entry.innerHTML = "<a href='" + url + "'>" + label + "</a>";
+		} else {
+			entry.classList.add('label');
+			entry.innerHTML = label;
+		}
+		downloadDom.appendChild(entry);
+	}
+	
+	var deps = project["dependencies"];
+	for (var key of Object.keys(deps)) {
+		var dependency = deps[key]
+		var label = dependency["label"];
+		var url = dependency["url"];
+		
+		var entry = document.createElement('li');
+		entry.classList.add('dlbutton');
+		entry.innerHTML = "<a href='" + url + "'>" + label + "</a>";
+		dependenciesDom.appendChild(entry);
+	}
+	
+	config_path.innerHTML = project["config_path"];
+}
+</script>        
+    </HEAD>
+    <BODY onload="init()">
+        <div id=nav>
+            <a class="navbar-brand"> Navigation: </a>
+            <div id=button><a class=navlink href="https://www.spigotmc.org/resources/fast-async-worldedit.13932/">Home </a></div>
+            <div id=button><a class=navlink href="https://github.com/boy0001/FastAsyncWorldedit/wiki">Wiki </a></div>
+            <div id=button><a class=navlink href="https://github.com/boy0001/FastAsyncWorldedit/issues/new">Report Issue </a></div>
+            <div id=button><a class=navlink href="https://discord.gg/ngZCzbU">Support/Chat </a></div>
+        </div>
+        <div id=banner>FAWE</div>
+        <h1>
+            <div class="goo" style="background:#CCC">
+                <div class="b-select-wrap">
+                    <select id="version_select" name="nameValueSelect" class="b-select" onchange="generateLinks();"></select>
+                </div>
+                Installation
+            </div>
+        </h1>
+        <div id="main">
+            <h2>
+            <ol>
+                <li>
+                    <h2>
+                        <div>Download FastAsyncWorldEdit (FAWE)</div>
+                    </h2>
+                    <h3 style="background:#CCC"><i>Please ensure the correct platform & version is selected above.</i></h3>
+                    <h3>
+                        <ul id="download">
+                            
+                            
+                        </ul>
+                    </h3>
+                </li>
+                <li>
+                    <h2>
+                        <div>Download any optional dependencies</div>
+                    </h2>
+                </li>
+                <h3>
+                    <ul id="dependencies">
+                       
+                    </ul>
+                </h3>
+                <li>
+                    <h2>
+                        <div>Configure the plugin + Give players the required permissions</div>
+                    </h2>
+                </li>
+                <h3>
+                    <ul>
+                        <li class="label">You can find the config file at: <span id="config_path"></span>/FastAsyncWorldEdit/config.yml</li>
+                        <li class="dlbutton"><a href="https://github.com/boy0001/FastAsyncWorldedit/wiki/Permissions">General FAWE Permissions</a></li>
+                        <li class="dlbutton"><a href="https://github.com/boy0001/FastAsyncWorldedit/wiki/Commands">FAWE Commands / Command Permissions</a></li>
+                    </ul>
+                </h3>
+                <li>
+                    <h2>
+                        <div>If you have any questions, or just want to chat, you can join the Discord channel:</div>
+                    </h2>
+                    <ul>
+                        <li class="dlbutton"><a href="https://discord.gg/ngZCzbU">#IntellectualCrafters @ Discord</a></li>
+                    </ul>
+                    
+                </li>
+                <li>
+                    <h2>
+                        <div>If you want to show your appreciation, donations or a constructive <a href="https://www.spigotmc.org/resources/13932/">review</a> are always welcome:</div>
+                    </h2>
+                    <ul>
+                        <li class="dlbutton"><a href="https://www.paypal.me/Empire92/10">paypal: jessepaleg@gmail.com</a></li>
+                    </ul>
+                </li>
+            </ol>
+            <h2>
+        </div>
+    </BODY>
+</HTML>
