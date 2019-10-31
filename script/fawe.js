@@ -187,27 +187,7 @@ var projects = {
 			asset_interface
 		],
 		"config_path": "mods"
-	},
-	"Forge 1.7.10": {
-		"download": [
-			{
-				"label": "Download FAWE",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/1231/artifact/target/",
-				"regex": "FastAsyncWorldEdit-forge1710",
-				"ext": "jar"
-			},
-			{
-				"label": "Install WorldEdit into mods",
-				"url": "https://minecraft.curseforge.com/projects/worldedit/files/2309699",
-				
-			}
-		],
-		"dependencies": [
-			web_interface,
-			asset_interface
-		],
-		"config_path": "mods"
-	},
+	}
 }
 
 projectDefault = "Spigot 1.13.2";
