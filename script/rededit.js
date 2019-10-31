@@ -11,27 +11,7 @@ var redis = {
     "url": "https://redis.io/"
 }
 var projects = {
-	"bukkit 1.7-1.12": {
-		"download": [
-			{
-				"label": "Download RedEdit",
-				"url": "http://ci.athion.net/view/Everything/job/RedEdit/lastSuccessfulBuild/artifact/target/",
-				"regex": "RedEdit",
-				"ext": "jar"
-            },
-            fawe,
-            plots,
-            redis
-		],
-		"dependencies": [
-            {
-                "label": "PlotHTTP - web interface to upload/download worlds",
-                "url": "https://ci.athion.net/view/Everything/job/PlotHTTP/"
-            }
-        ],
-        "config_path": "plugins"
-    },
-    "bukkit 1.13-1.14": {
+    "Bukkit 1.13-1.14": {
 		"download": [
 			{
 				"label": "Download RedEdit",
@@ -50,6 +30,26 @@ var projects = {
             }
         ],
         "config_path": "plugins"
+    },
+    "Bukkit 1.7-1.12": {
+		"download": [
+			{
+				"label": "Download RedEdit",
+				"url": "http://ci.athion.net/view/Everything/job/RedEdit/lastSuccessfulBuild/artifact/target/",
+				"regex": "RedEdit",
+				"ext": "jar"
+            },
+            fawe,
+            plots,
+            redis
+		],
+		"dependencies": [
+            {
+                "label": "PlotHTTP - web interface to upload/download worlds",
+                "url": "https://ci.athion.net/view/Everything/job/PlotHTTP/"
+            }
+        ],
+        "config_path": "plugins"
     }
 }
-projectDefault = "bukkit 1.7-1.12";
+projectDefault = "Bukkit 1.13-1.14";
