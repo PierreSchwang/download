@@ -16,7 +16,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download PlotSquared",
-				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Breaking/lastSuccessfulBuild/artifact/target/",
+				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Releases/lastSuccessfulBuild/artifact/target/",
 				"regex": "PlotSquared-Bukkit",
 				"ext": "jar"
 			}
