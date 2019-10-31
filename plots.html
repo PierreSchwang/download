@@ -1,0 +1,86 @@
+<HTML>
+    <HEAD>
+        <link rel="icon" href="data:;base64,=">
+        <TITLE>Download PlotSquared</TITLE>
+        <link rel="stylesheet" type="text/css" href="style/default.css">
+        <link rel="stylesheet" type="text/css" href="style/plots.css">
+        <style>
+</style>
+<script src="script/plots.js"></script>
+<script src="script/default.js"></script>
+    </HEAD>
+    <BODY onload="init()">
+        <div id=nav>
+            <a class="navbar-brand"> Navigation: </a>
+            <div id=button><a class=navlink href="https://www.spigotmc.org/resources/plotsquared.1177/">Home </a></div>
+            <div id=button><a class=navlink href="https://github.com/IntellectualSites/PlotSquared/wiki">Wiki </a></div>
+            <div id=button><a class=navlink href="https://github.com/IntellectualSites/PlotSquared/issues/new">Report Issue </a></div>
+            <div id=button><a class=navlink href="https://discord.gg/ngZCzbU">Support/Chat </a></div>
+        </div>
+        <div id=banner data-text="PLOTSQUARED">PLOTSQUARED</div>
+        <h1>
+            <div class="goo" style="background:#CCC">
+                <div class="b-select-wrap">
+                    <select id="version_select" name="nameValueSelect" class="b-select" onchange="generateLinks();"></select>
+                </div>
+                Installation
+            </div>
+        </h1>
+        <div id="main">
+            <h2>
+            <ol>
+                <li>
+                    <h2>
+                        <div>Download PlotSquared (P2)</div>
+                    </h2>
+                    <h3 class="label script">Please ensure the correct platform & version is selected above.</i></h3>
+                    <h3>
+                        <ul id="download">
+                            <noscript><li class="dlbutton"><a href="http://ci.athion.net/view/%20%20PlotSquared%20/">From ci.athion.net</li></noscript>
+                        </ul>
+                    </h3>
+                </li>
+                <li>
+                    <h2>
+                        <div>Download any optional dependencies</div>
+                    </h2>
+                </li>
+                <h3>
+                    <ul id="dependencies">			
+						<noscript><li class="dlbutton"><a href="https://github.com/boy0001/plotupload/archive/master.zip">PlotUpload - Web interface that supports multiple servers</li></noscript>
+						<noscript><li class="dlbutton"><a href="https://github.com/IntellectualSites/plotwebphp/archive/master.zip">PlotWebPHP - Web interface that supports plot searching</li></noscript>
+                    </ul>
+                </h3>
+                <li>
+                    <h2>
+                        <div>Configure the plugin + Give players the required permissions</div>
+                    </h2>
+                </li>
+                <h3>
+                    <ul>
+                        <li class="label">You can find the configs file at: <span id="config_path"></span>/PlotSquared/config/settings.yml</li>
+                        <li class="dlbutton"><a href="https://github.com/IntellectualSites/PlotSquared/wiki/Installation">See the installation instructions</a></li>
+                    </ul>
+                </h3>
+                <li>
+                    <h2>
+                        <div>If you have any questions, or just want to chat, you can join the Discord channel:</div>
+                    </h2>
+                    <ul>
+                        <li class="dlbutton"><a href="https://discord.gg/cSMxtGn">#IntellectualCrafters @ Discord</a></li>
+                    </ul>
+                    
+                </li>
+                <li>
+                    <h2>
+                        <div>If you want to show your appreciation, donations or a constructive <a href="https://www.spigotmc.org/resources/13932/">review</a> are always welcome:</div>
+                    </h2>
+                    <ul>
+                        <li class="dlbutton"><a href="https://paypal.me/alexanderbrandes/">Donate: paypal</a></li>
+                    </ul>
+                </li>
+            </ol>
+            <h2>
+        </div>
+    </BODY>
+</HTML>

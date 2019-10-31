@@ -1,0 +1,45 @@
+.rededitsvg {
+    display: block;
+    margin: 0px auto;
+    width: 800px;
+    margin-left: calc(50% - 365px);
+  }
+  #rededit {
+    fill: url(#gradient) #BB2222;
+    stroke: black;
+  }
+  #rededit {
+    stroke-width: 2px;
+    animation: logo 9s linear;
+  }
+  @keyframes logo {
+    0% {
+      stroke: url(#gradient) #BB2222;
+      stroke-width: 1pt;
+      stroke-dashoffset: 1200;
+      fill-opacity: 0;
+    }
+    50% {
+      stroke: #BB2222;
+      fill-opacity: 0;
+    }
+    99% {
+      stroke-dashoffset: 0;
+      fill-opacity: 1;
+      stroke-width: 2px;
+      stroke: #000;
+    }
+    100% {
+        stroke: url(#gradient2) #000;
+    }
+  }
+  #banner{
+      font-family:"Arial Black",Arial,sans-serif;
+      font-weight:700;
+      color:#b22;
+      font-size:1000%;
+      text-shadow:1px 1px 0 hsl(0,50%,39%),2px 2px 0 hsl(0,50%,38%),3px 3px 0 hsl(0,50%,37%),4px 4px 0 hsl(0,50%,36%),5px 5px 0 hsl(0,50%,34%),6px 6px 0 hsl(0,50%,32%),7px 7px 0 hsl(0,50%,31%),8px 8px 0 hsl(0,50%,30%),0 0 5px rgba(0,0,0,.05),1px 1px 3px rgba(0,0,0,.2),2px 2px 5px rgba(0,0,0,.2),4px 4px 10px rgba(0,0,0,.2),8px 8px 10px rgba(0,0,0,.2),16px 16px 20px rgba(0,0,0,.3);
+      display:block;
+      font-weight:700;
+      height:160px
+  }

@@ -1,0 +1,89 @@
+<HTML>
+    <HEAD>
+        <link rel="icon" href="data:;base64,=">
+        <TITLE>Download FAWE</TITLE>
+        <link rel="stylesheet" type="text/css" href="style/default.css">
+        <link rel="stylesheet" type="text/css" href="style/fawe.css">
+        <style>
+</style>
+<script src="script/fawe.js"></script>
+<script src="script/default.js"></script>
+    </HEAD>
+    <BODY onload="init()">
+        <div id=nav>
+            <a class="navbar-brand"> Navigation: </a>
+            <div id=button><a class=navlink href="https://www.spigotmc.org/resources/fast-async-worldedit.13932/">Home </a></div>
+            <div id=button><a class=navlink href="https://github.com/boy0001/FastAsyncWorldedit/wiki">Wiki </a></div>
+            <div id=button><a class=navlink href="https://github.com/boy0001/FastAsyncWorldedit/issues/new">Report Issue </a></div>
+            <div id=button><a class=navlink href="https://discord.gg/ngZCzbU">Support/Chat </a></div>
+        </div>
+        <div id=banner>FAWE</div>
+        <h1>
+            <div class="goo" style="background:#CCC">
+                <div class="b-select-wrap">
+                    <select id="version_select" name="nameValueSelect" class="b-select" onchange="generateLinks();"></select>
+                </div>
+                Installation
+            </div>
+        </h1>
+        <div id="main">
+            <h2>
+            <ol>
+                <li>
+                    <h2>
+                        <div>Download FastAsyncWorldEdit (FAWE)</div>
+                    </h2>
+                    <h3 class="label script">Please ensure the correct platform & version is selected above.</i></h3>
+                    <h3>
+                        <ul id="download">
+                            <noscript><li class="dlbutton"><a href="http://ci.athion.net/view/%20%20FastAsyncWorldEdit%20+%20FAVS/">From ci.athion.net</li></noscript>
+                        </ul>
+                    </h3>
+                </li>
+                <li>
+                    <h2>
+                        <div>Download any optional dependencies</div>
+                    </h2>
+                </li>
+                <h3>
+                    <ul id="dependencies">			
+						<noscript><li class="dlbutton"><a href="https://www.dropbox.com/s/pyumuk30ce1ocdi/FaweUpload.zip?dl=1">Web interface (Instead of using the public one)</li></noscript>
+						<noscript><li class="dlbutton"><a href="https://empcraft.com/assetpack/source.zip">Asset interface - to host private assets</li></noscript>
+						<noscript><li class="dlbutton"><a href="https://www.dropbox.com/s/pyumuk30ce1ocdi/FaweUpload.zip?dl=1">BlocksHub - integration with third party logging plugins on Spigot</li></noscript>
+						<noscript><li class="dlbutton"><a href="https://github.com/fromgate/DbLib/releases">DBLib - Nukkit database bindings</li></noscript>
+                    </ul>
+                </h3>
+                <li>
+                    <h2>
+                        <div>Configure the plugin + Give players the required permissions</div>
+                    </h2>
+                </li>
+                <h3>
+                    <ul>
+                        <li class="label">You can find the config file at: <span id="config_path"></span>/FastAsyncWorldEdit/config.yml</li>
+                        <li class="dlbutton"><a href="https://github.com/boy0001/FastAsyncWorldedit/wiki/Permissions">General FAWE Permissions</a></li>
+                        <li class="dlbutton"><a href="https://github.com/boy0001/FastAsyncWorldedit/wiki/Commands">FAWE Commands / Command Permissions</a></li>
+                    </ul>
+                </h3>
+                <li>
+                    <h2>
+                        <div>If you have any questions, or just want to chat, you can join the Discord channel:</div>
+                    </h2>
+                    <ul>
+                        <li class="dlbutton"><a href="https://discord.gg/ngZCzbU">#IntellectualCrafters @ Discord</a></li>
+                    </ul>
+                    
+                </li>
+                <li>
+                    <h2>
+                        <div>If you want to show your appreciation, donations or a constructive <a href="https://www.spigotmc.org/resources/13932/">review</a> are always welcome:</div>
+                    </h2>
+                    <ul>
+                        <li class="dlbutton"><a href="https://www.paypal.me/Empire92/10">paypal: jessepaleg@gmail.com</a></li>
+                    </ul>
+                </li>
+            </ol>
+            <h2>
+        </div>
+    </BODY>
+</HTML>
