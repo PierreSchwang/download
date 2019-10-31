@@ -128,7 +128,7 @@ var projects = {
 		],
 		"config_path": "mods"
 	},
-	"forge 1.10": {
+	"Forge 1.10": {
 		"download": [
 			{
 				"label": "Download FAWE",
