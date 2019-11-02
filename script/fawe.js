@@ -36,10 +36,10 @@ var projects = {
 			}
 		],
 		"dependencies": [
+			vault,
+			blocks_hub,
 			web_interface,
 			asset_interface,
-			vault,
-			blocks_hub
 		],
 		"config_path": "plugins"
 	},
@@ -62,10 +62,10 @@ var projects = {
 			}
 		],
 		"dependencies": [
+			vault,
+			blocks_hub,
 			web_interface,
 			asset_interface,
-			vault,
-			blocks_hub
 		],
 		"config_path": "plugins"
 	},
@@ -88,10 +88,10 @@ var projects = {
 			}
 		],
 		"dependencies": [
+			vault,
+			blocks_hub,
 			web_interface,
 			asset_interface,
-			vault,
-			blocks_hub
 		],
 		"config_path": "plugins"
 	},

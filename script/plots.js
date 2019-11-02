@@ -8,7 +8,7 @@ var plotupload_interface = {
 }
 var fawe = {
     "label": "Download FastAsyncWorldEdit",
-    "url": "https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/",
+    "url": "https://intellectualsites.github.io/download/fawe.html",
 }
 
 var projects = {
@@ -23,8 +23,6 @@ var projects = {
 			fawe,
 		],
 		"dependencies": [
-			web_interface,
-            plotupload_interface,
             {
                 "label": "HoloPlots (Holograms instead of signs)",
                 "url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/HoloPlots/"
@@ -37,6 +35,8 @@ var projects = {
                 "label": "PlotSquaredExpansion (PlaceholderAPI extension)",
                 "url": "https://github.com/IntellectualSites/PlotSquared-Expansion"
             },
+			web_interface,
+            plotupload_interface
 		],
 		"config_path": "plugins"
     },
@@ -51,8 +51,6 @@ var projects = {
         ],
         "dependencies": [
             fawe,
-            web_interface,
-            plotupload_interface,
             {
                 "label": "Plot2Dynmap (Dynmap addon)",
                 "url": "http://www.spigotmc.org/resources/plot2dynmap.1292/"
@@ -101,6 +99,8 @@ var projects = {
                 "label": "IslandPlots (Islands in ocean)",
                 "url": "https://www.spigotmc.org/resources/islandplots.9421/"
             },
+            web_interface,
+            plotupload_interface,
         ],
         "config_path": "plugins"
     },
