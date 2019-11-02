@@ -23,7 +23,6 @@ var projects = {
 			fawe,
 		],
 		"dependencies": [
-            fawe,
 			web_interface,
             plotupload_interface,
             {
