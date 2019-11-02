@@ -7,7 +7,7 @@ var plotupload_interface = {
 	"url": "https://github.com/IntellectualSites/plotwebphp/archive/master.zip"
 }
 var fawe = {
-    "label": "FastAsyncWorldEdit",
+    "label": "Download FastAsyncWorldEdit",
     "url": "https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/",
 }
 
@@ -19,7 +19,8 @@ var projects = {
 				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Releases/lastSuccessfulBuild/artifact/target/",
 				"regex": "PlotSquared-Bukkit",
 				"ext": "jar"
-			}
+			},
+			fawe,
 		],
 		"dependencies": [
             fawe,
