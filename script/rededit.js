@@ -1,6 +1,6 @@
 var fawe = {
     "label": "Download FastAsyncWorldEdit",
-    "url": "https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/",
+    "url": "https://intellectualsites.github.io/download/fawe.html",
 }
 var plots = {
     "label": "Download PlotSquared",
