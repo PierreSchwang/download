@@ -26,7 +26,7 @@ var projects = {
 				"ext": "jar"
 			},
 			{
-				"label": "Download FAVS",
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
 				"url": "http://ci.athion.net/job/FastAsyncVoxelSniper-1.13+/lastSuccessfulBuild/artifact/build/libs/",
 				"regex": "FastAsyncVoxelSniper-favs",
 				"ext": "jar"
@@ -52,7 +52,7 @@ var projects = {
 				"ext": "jar"
 			},
 			{
-				"label": "Download FAVS",
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
 				"url": "http://ci.athion.net/job/FastAsyncVoxelSniper-1.13+/lastSuccessfulBuild/artifact/build/libs/",
 				"regex": "FastAsyncVoxelSniper-favs",
 				"ext": "jar"
@@ -78,7 +78,7 @@ var projects = {
 				"ext": "jar"
 			},
 			{
-				"label": "Download FAVS",
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncVoxelSniper-favs",
 				"ext": "jar"
