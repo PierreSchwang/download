@@ -20,14 +20,14 @@ var projects = {
 	"Spigot 1.14.4": {
 		"download": [
 			{
-				"label": "Not released yet :P",
-				"url": "",
-				"regex": "FastAsyncWorldEdit-bukkit",
+				"label": "Download FAWE (Development Snapshot)",
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-pipeline/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
+				"regex": "FastAsyncWorldEdit-",
 				"ext": "jar"
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "http://ci.athion.net/job/FastAsyncVoxelSniper-1.13+/lastSuccessfulBuild/artifact/build/libs/",
+				"url": "http://ci.athion.net/view/Everything/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/",
 				"regex": "FastAsyncVoxelSniper-",
 				"ext": "jar"
 			},
