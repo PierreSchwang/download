@@ -25,11 +25,11 @@ var projects = {
 		"dependencies": [
             {
                 "label": "HoloPlots (Holograms instead of signs)",
-                "url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/HoloPlots/"
+                "url": "https://ci.athion.net/job/HoloPlots/"
             },
             {
                 "label": "Plot2Dynmap (Dynmap addon)",
-                "url": "https://github.com/IntellectualSites/plot2dynmap/releases"
+                "url": "https://ci.athion.net/job/Plot2Dynmap/"
             },
             {
                 "label": "PlotSquaredExpansion (PlaceholderAPI extension)",
