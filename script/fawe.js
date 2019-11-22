@@ -213,6 +213,38 @@ var projects = {
 			asset_interface
 		],
 		"config_path": "mods"
+	},
+	"Sponge 1.12": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"regex": "FastAsyncWorldEdit-sponge112",
+				"ext": "jar"
+			}
+		
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
+	}
+	"Sponge 1.11": {
+		"download": [
+			{
+				"label": "Download FAWE",
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"regex": "FastAsyncWorldEdit-sponge111",
+				"ext": "jar"
+			}
+		
+		],
+		"dependencies": [
+			web_interface,
+			asset_interface
+		],
+		"config_path": "mods"
 	}
 }
 
