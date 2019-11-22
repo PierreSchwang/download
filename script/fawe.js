@@ -229,7 +229,7 @@ var projects = {
 			asset_interface
 		],
 		"config_path": "mods"
-	}
+	},
 	"Sponge 1.11": {
 		"download": [
 			{
