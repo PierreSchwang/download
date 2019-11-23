@@ -20,7 +20,7 @@ var projects = {
 	"Spigot 1.14.4": {
 		"download": [
 			{
-				"label": "Download FAWE (Development Snapshot)",
+				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-pipeline/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
 				"regex": "FastAsyncWorldEdit-",
 				"ext": "jar"
