@@ -33,6 +33,9 @@ var projects = {
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
+			},
+			{
+				"label": "Do not use these builds on a production server!"
 			}
 		],
 		"dependencies": [
