@@ -21,7 +21,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-pipeline/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-i18n/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
 				"regex": "FastAsyncWorldEdit-",
 				"ext": "jar"
 			},
@@ -36,6 +36,9 @@ var projects = {
 			},
 			{
 				"label": "Do not use these builds on a production server!"
+			},
+			{
+				"label": "Note: Delete your FastAsyncWorldEdit folder if you are updating from an earlier version."
 			}
 		],
 		"dependencies": [
