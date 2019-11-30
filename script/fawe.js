@@ -26,7 +26,7 @@ var projects = {
 				"ext": "jar"
 			},
 			{
-				"label": "Download FastAsyncVoxelSniper (FAVS)",
+				"label": "Download FastAsyncVoxelSniper (FAVS) - UNFINISHED",
 				"url": "http://ci.athion.net/view/Everything/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/",
 				"regex": "FastAsyncVoxelSniper-",
 				"ext": "jar"
