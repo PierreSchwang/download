@@ -75,7 +75,7 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Spigot 1.8-1.12.2": {
+	"Spigot 1.7.10-1.12.2": {
 		"download": [
 			{
 				"label": "Download FAWE",
