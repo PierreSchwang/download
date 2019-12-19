@@ -17,43 +17,11 @@ var blocks_hub = {
 }
 
 var projects = {
-	"Spigot 1.15": {
-		"download": [
-			{
-				"label": "Download FAWE",
-				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-			},
-			{
-				"label": "Do not install WorldEdit (FAWE is a replacement)"
-			},
-			{
-				"label": "Do not use these builds on a production server!"
-			},
-			{
-				"label": "Note: Delete your FastAsyncWorldEdit folder if you are updating from an earlier version."
-			}
-		],
-		"dependencies": [
-			vault,
-			blocks_hub,
-			web_interface,
-			asset_interface,
-		],
-		"config_path": "plugins"
-	},
-	"Spigot 1.14.4": {
+	"Spigot 1.13-1.15": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-i18n/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
-				"regex": "FastAsyncWorldEdit-",
-				"ext": "jar"
-			},
-			{
-				"label": "Download FastAsyncVoxelSniper (FAVS) - UNFINISHED",
-				"url": "http://ci.athion.net/view/Everything/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/",
-				"regex": "FastAsyncVoxelSniper-",
-				"ext": "jar"
+				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-1.15/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
@@ -63,32 +31,6 @@ var projects = {
 			},
 			{
 				"label": "Note: Delete your FastAsyncWorldEdit folder if you are updating from an earlier version."
-			}
-		],
-		"dependencies": [
-			vault,
-			blocks_hub,
-			web_interface,
-			asset_interface,
-		],
-		"config_path": "plugins"
-	},
-	"Spigot 1.13.2": {
-		"download": [
-			{
-				"label": "Download FAWE",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-Breaking/lastSuccessfulBuild/artifact/target/",
-				"regex": "FastAsyncWorldEdit-bukkit",
-				"ext": "jar"
-			},
-			{
-				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "http://ci.athion.net/job/FastAsyncVoxelSniper-1.13+/lastSuccessfulBuild/artifact/build/libs/",
-				"regex": "FastAsyncVoxelSniper-",
-				"ext": "jar"
-			},
-			{
-				"label": "Do not install WorldEdit (FAWE is a replacement)"
 			}
 		],
 		"dependencies": [
@@ -278,4 +220,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.13.2";
+projectDefault = "Spigot 1.13-1.15";
