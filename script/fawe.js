@@ -17,7 +17,7 @@ var blocks_hub = {
 }
 
 var projects = {
-	"Spigot 1.13.2-1.15.1": {
+	"Spigot 1.13.2 - 1.15.1": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
@@ -43,7 +43,7 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Spigot 1.7.10-1.12.2": {
+	"Spigot 1.7.10 - 1.12.2": {
 		"download": [
 			{
 				"label": "Download FAWE",
