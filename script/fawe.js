@@ -17,11 +17,13 @@ var blocks_hub = {
 }
 
 var projects = {
-	"Spigot 1.13-1.15": {
+	"Spigot 1.13.2-1.15.1": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-1.15/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
+				"regex": "FastAsyncWorldEdit-",
+				"ext": "jar"
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
