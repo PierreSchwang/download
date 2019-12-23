@@ -33,6 +33,12 @@ var projects = {
 			},
 			{
 				"label": "Note: Delete your FastAsyncWorldEdit folder if you are updating from an earlier version."
+			},
+			{
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
+				"url": "http://ci.athion.net/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/",
+				"regex": "FastAsyncVoxelSniper-flattened-",
+				"ext": "jar"
 			}
 		],
 		"dependencies": [
