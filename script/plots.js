@@ -119,6 +119,9 @@ var projects = {
 				"regex": "PlotSquared-Nukkit",
 				"ext": "jar"
             },
+            {
+                "label": "PlotSquared for Nukkit requires Fawe and DbLib to work. You can download them below."
+            },
             fawe,
             {
                 "label": "Download DBLib",
@@ -139,6 +142,9 @@ var projects = {
 				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
 				"regex": "PlotSquared-Sponge",
 				"ext": "jar"
+            },
+            {
+                "label": "PlotSquared for Sponge requires Fawe to work. You can download it below."
             },
             fawe
 		],

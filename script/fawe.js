@@ -87,6 +87,9 @@ var projects = {
 				"ext": "jar"
 			},
 			{
+                "label": "Fawe for Nukkit requires DbLib to work. You can download it below."
+            },
+			{
 				"label": "Install DBLib",
 				"url": "https://github.com/fromgate/DbLib/releases/download/0.2.3/DbLib.jar"
 			}
@@ -106,6 +109,9 @@ var projects = {
 				"regex": "FastAsyncWorldEdit-forge112",
 				"ext": "jar"
 			},
+			{
+                "label": "Fawe for Forge requires WorldEdit to work. You can download it below."
+            },
 			{
 				"label": "Install WorldEdit into mods",
 				"url": "https://minecraft.curseforge.com/projects/worldedit/files/2460570",
@@ -128,6 +134,9 @@ var projects = {
 				"ext": "jar"
 			},
 			{
+                "label": "Fawe for Forge requires WorldEdit to work. You can download it below."
+            },
+			{
 				"label": "Install WorldEdit into mods",
 				"url": "https://minecraft.curseforge.com/projects/worldedit/files/2355945"
 			}
@@ -147,6 +156,9 @@ var projects = {
 				"regex": "FastAsyncWorldEdit-forge110",
 				"ext": "jar"
 			},
+			{
+                "label": "Fawe for Forge requires WorldEdit to work. You can download it below."
+            },
 			{
 				"label": "Install WorldEdit into mods",
 				"url": "https://minecraft.curseforge.com/projects/worldedit/files/2328371",
@@ -169,6 +181,9 @@ var projects = {
 				"ext": "jar"
 			},
 			{
+                "label": "Fawe for Forge requires WorldEdit to work. You can download it below."
+            },
+			{
 				"label": "Install WorldEdit into mods",
 				"url": "https://minecraft.curseforge.com/projects/worldedit/files/2309681",
 				
@@ -189,6 +204,9 @@ var projects = {
 				"regex": "FastAsyncWorldEdit-forge189",
 				"ext": "jar"
 			},
+			{
+                "label": "Fawe for Forge requires WorldEdit to work. You can download it below."
+            },
 			{
 				"label": "Install WorldEdit into mods",
 				"url": "https://minecraft.curseforge.com/projects/worldedit/files/2275930",
