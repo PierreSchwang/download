@@ -1,6 +1,6 @@
 var web_interface = {
 	"label": "Web interface (Instead of using the public one)",
-	"url": "https://www.dropbox.com/s/pyumuk30ce1ocdi/FaweUpload.zip?dl=1"
+	"url": "https://intellectualsites.github.io/download/webinterface.html"
 }
 var asset_interface = {
 	"label": "Asset interface - to host private assets",
@@ -14,6 +14,11 @@ var vault = {
 var blocks_hub = {
 	"label": "BlocksHub - integration with third party logging plugins on Spigot",
 	"url": "https://github.com/boy0001/FastAsyncWorldedit/wiki/Third-party-loggers"
+}
+
+var heightmap_interface = {
+	"label": "Heightmap Interface",
+	"url": "https://intellectualsites.github.io/download/heightmaps.html",
 }
 
 var projects = {
@@ -44,6 +49,7 @@ var projects = {
 			blocks_hub,
 			web_interface,
 			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "plugins"
 	},
@@ -68,6 +74,7 @@ var projects = {
 			blocks_hub,
 			web_interface,
 			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "plugins"
 	},
@@ -87,7 +94,7 @@ var projects = {
 		"dependencies": [
 			web_interface,
 			asset_interface,
-
+			heightmap_interface,
 		],
 		"config_path": "plugins"
 	},
@@ -107,7 +114,8 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface
+			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "mods"
 	},
@@ -126,7 +134,8 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface
+			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "mods"
 	},
@@ -146,7 +155,8 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface
+			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "mods"
 	},
@@ -166,7 +176,8 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface
+			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "mods"
 	},
@@ -186,7 +197,8 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface
+			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "mods"
 	},
@@ -202,7 +214,8 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface
+			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "mods"
 	},
@@ -218,7 +231,8 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface
+			asset_interface,
+			heightmap_interface,
 		],
 		"config_path": "mods"
 	}
