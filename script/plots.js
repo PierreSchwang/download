@@ -12,14 +12,21 @@ var fawe = {
 }
 
 var projects = {
-	"Spigot 1.13-1.14": {
+	"Spigot 1.13 - 1.15.1": {
 		"download": [
 			{
-				"label": "Download PlotSquared",
-				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Releases/lastSuccessfulBuild/artifact/target/",
+				"label": "Download PlotSquared (Latest Release Build)",
+				"url": "https://ci.athion.net/job/PlotSquared-Releases/lastSuccessfulBuild/artifact/target/",
 				"regex": "PlotSquared-Bukkit",
 				"ext": "jar"
-			},
+            },
+            {
+				"label": "Download PlotSquared (Experimental Builds)",
+				"url": "https://ci.athion.net/job/PlotSquared-Breaking/",
+            },
+            {
+                "label": "Note: Requires FAWE or WorldEdit to work"
+            },
 			fawe,
 		],
 		"dependencies": [
@@ -40,10 +47,10 @@ var projects = {
 		],
 		"config_path": "plugins"
     },
-    "Spigot 1.8-1.12.2": {
+    "Spigot 1.8 - 1.12.2": {
         "download": [
             {
-                "label": "Download PlotSquared",
+                "label": "Download PlotSquared (Latest Release Build)",
                 "url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
                 "regex": "PlotSquared-Bukkit",
                 "ext": "jar"
@@ -107,7 +114,7 @@ var projects = {
     "Nukkit": {
 		"download": [
 			{
-				"label": "Download PlotSquared",
+				"label": "Download PlotSquared (Latest Release Build)",
 				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
 				"regex": "PlotSquared-Nukkit",
 				"ext": "jar"
@@ -128,7 +135,7 @@ var projects = {
     "Sponge": {
 		"download": [
 			{
-				"label": "Download PlotSquared",
+				"label": "Download PlotSquared (Latest Release Build)",
 				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
 				"regex": "PlotSquared-Sponge",
 				"ext": "jar"
@@ -143,4 +150,4 @@ var projects = {
 	},
 }
 
-projectDefault = "Spigot 1.13-1.14";
+projectDefault = "Spigot 1.13 - 1.15.1";

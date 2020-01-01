@@ -36,9 +36,7 @@ var projects = {
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "http://ci.athion.net/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/",
-				"regex": "FastAsyncVoxelSniper-flattened-",
-				"ext": "jar"
+				"url": "https://intellectualsites.github.io/download/favs.html",
 			}
 		],
 		"dependencies": [
@@ -52,16 +50,14 @@ var projects = {
 	"Spigot 1.7.10 - 1.12.2": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-bukkit",
 				"ext": "jar"
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
-				"regex": "FastAsyncVoxelSniper-favs",
-				"ext": "jar"
+				"url": "https://intellectualsites.github.io/download/favs.html",
 			},
 			{
 				"label": "WorldEdit & VoxelSniper will be installed automatically"
@@ -78,7 +74,7 @@ var projects = {
 	"Nukkit": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-nukkit",
 				"ext": "jar"
@@ -98,7 +94,7 @@ var projects = {
 	"Forge 1.12": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge112",
 				"ext": "jar"
@@ -118,7 +114,7 @@ var projects = {
 	"Forge 1.11": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge111",
 				"ext": "jar"
@@ -137,7 +133,7 @@ var projects = {
 	"Forge 1.10": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge110",
 				"ext": "jar"
@@ -157,7 +153,7 @@ var projects = {
 	"Forge 1.9.4": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge194",
 				"ext": "jar"
@@ -177,7 +173,7 @@ var projects = {
 	"Forge 1.8.9": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge189",
 				"ext": "jar"
@@ -197,7 +193,7 @@ var projects = {
 	"Sponge 1.12": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-sponge112",
 				"ext": "jar"
@@ -213,7 +209,7 @@ var projects = {
 	"Sponge 1.11": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download FAWE (Latest Release Build)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-sponge111",
 				"ext": "jar"
