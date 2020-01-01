@@ -8,11 +8,15 @@ var projects = {
 				"ext": "jar"
             },
             {
-                "label": "Note: HoloPlots requires ProtocolLib and HolographicDisplays to work. You can download it below."
+                "label": "Note: HoloPlots requires PlotSquared, ProtocolLib and HolographicDisplays to work. You can download them below."
+            },
+            {
+				"label": "Download PlotSquared",
+                "url": "https://intellectualsites.github.io/download/plots.html",
             },
             {
 				"label": "Download ProtocolLib",
-                "url": "https://www.spigotmc.org/resources/protocollib.1997/download?version=306586",
+                "url": "https://www.spigotmc.org/resources/protocollib.1997/",
             },
             {
 				"label": "Download HolographicDisplays",
@@ -29,11 +33,15 @@ var projects = {
                 "url": "https://www.spigotmc.org/resources/holoplots.4880/download?version=98388",
             },
             {
-                "label": "Note: HoloPlots requires ProtocolLib and HolographicDisplays to work. You can download it below."
+                "label": "Note: HoloPlots requires PlotSquared, ProtocolLib and HolographicDisplays to work. You can download them below."
+            },
+            {
+				"label": "Download PlotSquared",
+                "url": "https://intellectualsites.github.io/download/plots.html",
             },
             {
 				"label": "Download ProtocolLib",
-                "url": "https://www.spigotmc.org/resources/protocollib.1997/download?version=306586",
+                "url": "https://www.spigotmc.org/resources/protocollib.1997/",
             },
             {
 				"label": "Download HolographicDisplays",

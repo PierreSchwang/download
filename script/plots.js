@@ -1,6 +1,6 @@
 var web_interface = {
 	"label": "Web interface (Instead of using the public one)",
-	"url": "https://github.com/boy0001/plotupload/archive/master.zip"
+	"url": "https://intellectualsites.github.io/download/webinterface.html"
 }
 var plotupload_interface = {
 	"label": "PlotUpload - web interface for searching plots",
@@ -32,11 +32,11 @@ var projects = {
 		"dependencies": [
             {
                 "label": "HoloPlots (Holograms instead of signs)",
-                "url": "https://ci.athion.net/job/HoloPlots/"
+                "url": "https://intellectualsites.github.io/download/holoplots.html"
             },
             {
                 "label": "Plot2Dynmap (Dynmap addon)",
-                "url": "https://ci.athion.net/job/Plot2Dynmap/"
+                "url": "https://intellectualsites.github.io/download/plot2dynmap.html"
             },
             {
                 "label": "PlotSquaredExpansion (PlaceholderAPI extension)",
@@ -60,7 +60,7 @@ var projects = {
             fawe,
             {
                 "label": "Plot2Dynmap (Dynmap addon)",
-                "url": "http://www.spigotmc.org/resources/plot2dynmap.1292/"
+                "url": "https://intellectualsites.github.io/download/plot2dynmap.html"
             },
             {
                 "label": "PlotRankup (Plot approval system)",
@@ -80,7 +80,7 @@ var projects = {
             },
             {
                 "label": "HoloPlots (Holograms instead of signs)",
-                "url": "https://www.spigotmc.org/resources/holoplots.4880/"
+                "url": "https://intellectualsites.github.io/download/holoplots.html"
             },
             {
                 "label": "[GEN] BiomeGenerator (Natural biomes within plots|not a world generator)",
