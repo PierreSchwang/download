@@ -4,7 +4,7 @@ var web_interface = {
 }
 var plotupload_interface = {
 	"label": "PlotUpload - web interface for searching plots",
-	"url": "https://github.com/IntellectualSites/plotwebphp/archive/master.zip"
+	"url": "https://intellectualsites.github.io/download/plotwebphp.html"
 }
 var fawe = {
     "label": "Download FastAsyncWorldEdit",
