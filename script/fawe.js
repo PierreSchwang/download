@@ -56,7 +56,7 @@ var projects = {
 	"Spigot 1.7.10 - 1.12.2": {
 		"download": [
 			{
-				"label": "Download FAWE (Latest Release Build)",
+				"label": "Download FAWE (Latest Release Build) - (Legacy & Unsupported)",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-bukkit",
 				"ext": "jar"
