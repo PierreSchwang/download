@@ -1,5 +1,5 @@
 var projects = {
-	"Spigot 1.8 - 1.15.1": {
+	"Spigot 1.8 - 1.15.2": {
 		"download": [
 			{
 				"label": "Download PlotSquared Expansion (Latest Release Build)",
@@ -25,4 +25,4 @@ var projects = {
     },
 }
 
-projectDefault = "Spigot 1.8 - 1.15.1";
+projectDefault = "Spigot 1.8 - 1.15.2";

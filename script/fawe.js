@@ -53,6 +53,35 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
+	"Spigot 1.13.2": {
+		"download": [
+			{
+				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.15/45/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-1.15-45.jar",
+			},
+			{
+				"label": "Do not install WorldEdit (FAWE is a replacement)"
+			},
+			{
+				"label": "Do not use these builds on a production server!"
+			},
+			{
+				"label": "Note: Delete your FastAsyncWorldEdit folder if you are updating from an earlier version."
+			},
+			{
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
+				"url": "https://intellectualsites.github.io/download/favs.html",
+			}
+		],
+		"dependencies": [
+			vault,
+			blocks_hub,
+			web_interface,
+			asset_interface,
+			heightmap_interface,
+		],
+		"config_path": "plugins"
+	},
 	"Spigot 1.7.10 - 1.12.2": {
 		"download": [
 			{
