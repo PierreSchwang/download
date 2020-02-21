@@ -64,9 +64,6 @@ function generateLinks() {
 		if (dl.hasOwnProperty("url")) {
 			entry.classList.add('dlbutton');
 			var url = dl["url"];
-			if (dl.hasOwnProperty("regex")) {
-				url = "https://empcraft.com/download?url=" + encodeURIComponent(url) + "&name=" + dl["regex"] + "&ext=" + dl["ext"];
-			}
 			entry.innerHTML = "<a href='" + url + "'>" + label + "</a>";
 		} else {
 			entry.classList.add('label');
