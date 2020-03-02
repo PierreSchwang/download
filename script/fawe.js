@@ -26,7 +26,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit-1.15/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.15/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
 				"regex": "FastAsyncWorldEdit-",
 				"ext": "jar"
 			},
@@ -86,7 +86,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build) - (Legacy & Unsupported)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-bukkit",
 				"ext": "jar"
 			},
@@ -111,7 +111,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-nukkit",
 				"ext": "jar"
 			},
@@ -134,7 +134,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge112",
 				"ext": "jar"
 			},
@@ -158,7 +158,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge111",
 				"ext": "jar"
 			},
@@ -181,7 +181,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge110",
 				"ext": "jar"
 			},
@@ -205,7 +205,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge194",
 				"ext": "jar"
 			},
@@ -229,7 +229,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-forge189",
 				"ext": "jar"
 			},
@@ -253,7 +253,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-sponge112",
 				"ext": "jar"
 			}
@@ -270,7 +270,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Latest Release Build)",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncWorldEdit-sponge111",
 				"ext": "jar"
 			}
