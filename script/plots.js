@@ -51,9 +51,7 @@ var projects = {
         "download": [
             {
                 "label": "Download PlotSquared (Latest Release Build)",
-                "url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
-                "regex": "PlotSquared-Bukkit",
-                "ext": "jar"
+                "url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Bukkit-20.03.28-71943e6-796.jar",
             }
         ],
         "dependencies": [
@@ -115,9 +113,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download PlotSquared (Latest Release Build)",
-				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
-				"regex": "PlotSquared-Nukkit",
-				"ext": "jar"
+				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Nukkit-20.03.28-71943e6-796.jar",
             },
             {
                 "label": "PlotSquared for Nukkit requires Fawe and DbLib to work. You can download them below."
@@ -139,9 +135,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download PlotSquared (Latest Release Build)",
-				"url": "http://ci.athion.net/view/%20%20PlotSquared%20/job/PlotSquared-Legacy/lastSuccessfulBuild/artifact/target/",
-				"regex": "PlotSquared-Sponge",
-				"ext": "jar"
+				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Sponge-20.03.28-71943e6-796.jar",
             },
             {
                 "label": "PlotSquared for Sponge requires Fawe to work. You can download it below."
