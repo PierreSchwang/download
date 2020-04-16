@@ -15,14 +15,8 @@ var projects = {
 	"Spigot 1.13.2 - 1.15.2": {
 		"download": [
 			{
-				"label": "Download PlotSquared (Latest Release Build)",
-				"url": "https://ci.athion.net/job/PlotSquared-Releases/lastSuccessfulBuild/artifact/target/",
-				"regex": "PlotSquared-Bukkit",
-				"ext": "jar"
-            },
-            {
-				"label": "Download PlotSquared (Experimental Builds)",
-				"url": "https://ci.athion.net/job/PlotSquared-Breaking/",
+				"label": "Download PlotSquared (Patreon Only Release)",
+				"url": "https://www.patreon.com/IntellectualSites",
             },
             {
                 "label": "Note: Requires FAWE or WorldEdit to work"
@@ -50,7 +44,11 @@ var projects = {
     "Spigot 1.8 - 1.12.2": {
         "download": [
             {
-                "label": "Download PlotSquared (Latest Release Build)",
+                "label": "Download PlotSquared (Supported Stable Releases - Donor+ Tier)",
+                "url": "https://www.patreon.com/IntellectualSites",
+            },
+            {
+                "label": "Download PlotSquared (Unsupported Experimental Build)",
                 "url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Bukkit-20.03.28-71943e6-796.jar",
             }
         ],
@@ -111,8 +109,12 @@ var projects = {
     },
     "Nukkit": {
 		"download": [
+            {
+                "label": "Download PlotSquared (Supported Stable Releases - Donor+ Tier)",
+                "url": "https://www.patreon.com/IntellectualSites",
+            },
 			{
-				"label": "Download PlotSquared (Latest Release Build)",
+				"label": "Download PlotSquared (Unsupported Experimental Build)",
 				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Nukkit-20.03.28-71943e6-796.jar",
             },
             {
@@ -133,8 +135,12 @@ var projects = {
     },
     "Sponge": {
 		"download": [
+            {
+                "label": "Download PlotSquared (Supported Stable Releases - Donor+ Tier)",
+                "url": "https://www.patreon.com/IntellectualSites",
+            },
 			{
-				"label": "Download PlotSquared (Latest Release Build)",
+				"label": "Download PlotSquared (Unsupported Experimental Build)",
 				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Sponge-20.03.28-71943e6-796.jar",
             },
             {
