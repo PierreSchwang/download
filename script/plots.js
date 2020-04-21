@@ -15,8 +15,8 @@ var projects = {
 	"Spigot 1.13.2 - 1.15.2": {
 		"download": [
 			{
-				"label": "Download PlotSquared (Patreon Only Release)",
-				"url": "https://www.patreon.com/IntellectualSites",
+				"label": "Download PlotSquared",
+				"url": "https://www.spigotmc.org/resources/77506/",
             },
             {
                 "label": "Note: Requires FAWE or WorldEdit to work"

@@ -3,9 +3,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download Plot2Dynmap (Latest Release Build)",
-                "url": "https://ci.athion.net/job/Plot2Dynmap/lastSuccessfulBuild/artifact/target/libs/",
-                "regex": "Plot2Dynmap",
-				"ext": "jar"
+                "url": "https://www.spigotmc.org/resources/plot2dynmap.1292/",
             },
             {
                 "label": "Note: Plot2Dynmap requires PlotSquared and Dynmap to work. You can download it below."

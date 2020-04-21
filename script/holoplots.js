@@ -3,9 +3,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download HoloPlots (Latest Release Build)",
-                "url": "https://ci.athion.net/job/HoloPlots/lastSuccessfulBuild/artifact/target/",
-                "regex": "HoloPlots",
-				"ext": "jar"
+                "url": "https://www.spigotmc.org/resources/holoplots.4880//",
             },
             {
                 "label": "Note: HoloPlots requires PlotSquared, ProtocolLib and HolographicDisplays to work. You can download them below."
