@@ -56,8 +56,8 @@ var projects = {
 	"Spigot 1.13.2": {
 		"download": [
 			{
-				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
-				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.15/45/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-1.15-45.jar",
+				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.15)",
+				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-1.13.jar",
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
