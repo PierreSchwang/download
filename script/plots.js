@@ -44,12 +44,8 @@ var projects = {
     "Spigot 1.8 - 1.12.2": {
         "download": [
             {
-                "label": "Download PlotSquared (Supported Stable Releases - Donor+ Tier)",
-                "url": "https://www.patreon.com/IntellectualSites",
-            },
-            {
-                "label": "Download PlotSquared (Unsupported Experimental Build)",
-                "url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Bukkit-20.03.28-71943e6-796.jar",
+                "label": "Download PlotSquared (Development Builds)",
+                "url": "https://ci.athion.net/job/PlotSquared-v3/",
             }
         ],
         "dependencies": [
@@ -109,13 +105,9 @@ var projects = {
     },
     "Nukkit": {
 		"download": [
-            {
-                "label": "Download PlotSquared (Supported Stable Releases - Donor+ Tier)",
-                "url": "https://www.patreon.com/IntellectualSites",
-            },
 			{
-				"label": "Download PlotSquared (Unsupported Experimental Build)",
-				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Nukkit-20.03.28-71943e6-796.jar",
+				"label": "Download PlotSquared (Development Build)",
+				"url": "https://ci.athion.net/job/PlotSquared-v3/",
             },
             {
                 "label": "PlotSquared for Nukkit requires Fawe and DbLib to work. You can download them below."
@@ -135,13 +127,9 @@ var projects = {
     },
     "Sponge": {
 		"download": [
-            {
-                "label": "Download PlotSquared (Supported Stable Releases - Donor+ Tier)",
-                "url": "https://www.patreon.com/IntellectualSites",
-            },
 			{
-				"label": "Download PlotSquared (Unsupported Experimental Build)",
-				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/PlotSquared/PlotSquared-Sponge-20.03.28-71943e6-796.jar",
+				"label": "Download PlotSquared (Development Build)",
+				"url": "https://ci.athion.net/job/PlotSquared-v3/",
             },
             {
                 "label": "PlotSquared for Sponge requires Fawe to work. You can download it below."
