@@ -45,7 +45,7 @@ var projects = {
         "download": [
             {
                 "label": "Download PlotSquared (Development Builds)",
-                "url": "https://ci.athion.net/job/PlotSquared-v3/",
+                "url": "https://ci.athion.net/job/PlotSquared-v3/lastSuccessfulBuild/artifact/target/PlotSquared-Bukkit-3.808.jar",
             }
         ],
         "dependencies": [
@@ -107,7 +107,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download PlotSquared (Development Build)",
-				"url": "https://ci.athion.net/job/PlotSquared-v3/",
+				"url": "https://ci.athion.net/job/PlotSquared-v3/lastSuccessfulBuild/artifact/target/PlotSquared-Nukkit-3.808.jar",
             },
             {
                 "label": "PlotSquared for Nukkit requires Fawe and DbLib to work. You can download them below."
@@ -129,7 +129,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download PlotSquared (Development Build)",
-				"url": "https://ci.athion.net/job/PlotSquared-v3/",
+				"url": "https://ci.athion.net/job/PlotSquared-v3/lastSuccessfulBuild/artifact/target/PlotSquared-Sponge-3.808.jar",
             },
             {
                 "label": "PlotSquared for Sponge requires Fawe to work. You can download it below."
