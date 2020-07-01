@@ -22,11 +22,11 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.14.4 - 1.15.2": {
+	"Spigot 1.14.4 - 1.16.1": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
-				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.15/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.16/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
 				"regex": "FastAsyncWorldEdit-",
 				"ext": "jar"
 			},
@@ -267,4 +267,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.14.4 - 1.15.2";
+projectDefault = "Spigot 1.14.4 - 1.16.1";
