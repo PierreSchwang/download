@@ -1,5 +1,5 @@
 var projects = {
-	"Spigot 1.8 - 1.15.2": {
+	"Spigot 1.8 - 1.16.1": {
 		"download": [
 			{
 				"label": "Download PlotSquared Expansion (Latest Release Build)",
@@ -15,7 +15,7 @@ var projects = {
             },
             {
 				"label": "Download PlotSquared",
-                "url": "https://intellectualsites.github.io/download/plots.html",
+                "url": "https://www.spigotmc.org/resources/77506/",
             },
             {
 				"label": "Download PlaceholderAPI",
@@ -25,4 +25,4 @@ var projects = {
     },
 }
 
-projectDefault = "Spigot 1.8 - 1.15.2";
+projectDefault = "Spigot 1.8 - 1.16.1";
