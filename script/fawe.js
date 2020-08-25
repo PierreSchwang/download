@@ -22,7 +22,7 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.14.4 - 1.16.1": {
+	"Spigot 1.14.4 - 1.16.2": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
@@ -35,9 +35,6 @@ var projects = {
 			},
 			{
 				"label": "Do not use these builds on a production server!"
-			},
-			{
-				"label": "Note: Delete your FastAsyncWorldEdit folder if you are updating from an earlier version."
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
@@ -267,4 +264,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.14.4 - 1.16.1";
+projectDefault = "Spigot 1.14.4 - 1.16.2";
