@@ -12,7 +12,7 @@ var fawe = {
 }
 
 var projects = {
-	"Spigot 1.13.2 - 1.16.1": {
+	"Spigot 1.13.2 - 1.16.2": {
 		"download": [
 			{
 				"label": "Download PlotSquared",
@@ -44,7 +44,7 @@ var projects = {
     "Spigot 1.8 - 1.12.2": {
         "download": [
             {
-                "label": "Download PlotSquared (Unsupported Development Builds - Consider updating to 1.15 for supported builds)",
+                "label": "Download PlotSquared (Unsupported Development Builds - Consider updating to 1.14+ for supported builds)",
                 "url": "https://ci.athion.net/job/PlotSquared-v3/lastSuccessfulBuild/artifact/target/",
             }
         ],
@@ -144,4 +144,4 @@ var projects = {
 	},
 }
 
-projectDefault = "Spigot 1.13 - 1.16.1";
+projectDefault = "Spigot 1.13 - 1.16.2";
