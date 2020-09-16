@@ -22,7 +22,7 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.14.4 - 1.16.3": {
+	"Spigot 1.15.2 - 1.16.3": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
@@ -50,11 +50,40 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
+	"Spigot 1.14.4": {
+		"download": [
+			{
+				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.15+)",
+				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-1.14.jar",
+			},
+			{
+				"label": "Do not install WorldEdit (FAWE is a replacement)"
+			},
+			{
+				"label": "Do not use these builds on a production server!"
+			},
+			{
+				"label": "Note: Delete your FastAsyncWorldEdit folder if you are updating from an earlier version."
+			},
+			{
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
+				"url": "https://intellectualsites.github.io/download/favs.html",
+			}
+		],
+		"dependencies": [
+			vault,
+			blocks_hub,
+			web_interface,
+			asset_interface,
+			heightmap_interface,
+		],
+		"config_path": "plugins"
+	},
 	"Spigot 1.13.2": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.14+)",
-				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-1.13.jar",
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
