@@ -293,4 +293,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.14.4 - 1.16.3";
+projectDefault = "Spigot 1.15.2 - 1.16.4";
