@@ -3,11 +3,11 @@ var projects = {
 		"download": [
 			{
 				"label": "Download the Heightmap Interface",
-				"url": "https://github.com/boy0001/HeightMap/archive/gh-pages.zip",
+				"url": "https://github.com/IntellectualSites/HeightMap/archive/main.zip",
 			},
 			{
 				"label": "Click here for a Demo Version",
-				"url": "https://boy0001.github.io/HeightMap/",
+				"url": "https://intellectualsites.github.io/HeightMap/",
 			}
 		]
 	}
