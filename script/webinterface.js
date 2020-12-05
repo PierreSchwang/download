@@ -3,7 +3,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download the Web Interface",
-				"url": "https://github.com/boy0001/plotupload/archive/master.zip",
+				"url": "https://github.com/IntellectualSites/plotupload/archive/master.zip",
 			}
 		]
 	}
