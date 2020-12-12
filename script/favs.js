@@ -4,7 +4,7 @@ var vault = {
 }
 
 var projects = {
-	"Spigot 1.13.2 - 1.16.1": {
+	"Spigot 1.13.2 - 1.16.4": {
 		"download": [
 			{
 				"label": "Download FAVS",
@@ -41,4 +41,4 @@ var projects = {
 	},
 }
 
-projectDefault = "Spigot 1.13.2 - 1.16.1";
+projectDefault = "Spigot 1.13.2 - 1.16.4";
