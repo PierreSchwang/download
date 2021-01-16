@@ -22,7 +22,7 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.15.2 - 1.16.4": {
+	"Spigot 1.15.2 - 1.16.5": {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE)",
@@ -293,4 +293,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.15.2 - 1.16.4";
+projectDefault = "Spigot 1.15.2 - 1.16.5";
