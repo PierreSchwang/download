@@ -43,7 +43,6 @@ var projects = {
 		],
 		"dependencies": [
 			vault,
-			blocks_hub,
 			web_interface,
 			asset_interface,
 			heightmap_interface,
@@ -101,7 +100,6 @@ var projects = {
 		],
 		"dependencies": [
 			vault,
-			blocks_hub,
 			web_interface,
 			asset_interface,
 			heightmap_interface,
