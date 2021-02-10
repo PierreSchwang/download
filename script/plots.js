@@ -12,7 +12,7 @@ var fawe = {
 }
 
 var projects = {
-	"Spigot 1.13.2 - 1.16.4": {
+	"Spigot 1.13.2 - 1.16.5": {
 		"download": [
 			{
 				"label": "Download PlotSquared",
@@ -144,4 +144,4 @@ var projects = {
 	},
 }
 
-projectDefault = "Spigot 1.13 - 1.16.4";
+projectDefault = "Spigot 1.13 - 1.16.5";
