@@ -107,7 +107,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.15+)",
-				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/1285/artifact/target/FastAsyncWorldEdit-bukkit-19.11.13-5505943-1282-22.3.5.jar"
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/"
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
