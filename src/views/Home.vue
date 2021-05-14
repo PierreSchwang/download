@@ -25,67 +25,66 @@
       </h1>
       <div class="uk-child-width-expand@s uk-text-center uk-grid-match uk-link-reset" uk-grid>
         <div>
-          <router-link to="/fawe"
-                       class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <router-link to="/fawe" :class="softwareClass">
             <p>FastAsyncWorldEdit (FAWE)</p>
           </router-link>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>FastAsyncVoxelSniper (FAVS)</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>PlotSquared (P2)</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>HoloPlots - PlotSquared Addition</p>
           </div>
         </div>
       </div>
       <div class="uk-child-width-expand@s uk-text-center uk-grid-match" uk-grid>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>Plot2Dynmap - PlotSquared Addon</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>PAPI Expansion - PlotSquared Addon</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>PlotWebPHP - PlotSquared Web Interface</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>RedEdit</p>
           </div>
         </div>
       </div>
       <div class="uk-child-width-expand@s uk-text-center uk-grid-match" uk-grid>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>Schematic Web Interface</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>Heightmap Interface</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>Paste Viewer</p>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-text-center">
+          <div :class="softwareClass">
             <p>Kvantum</p>
           </div>
         </div>
@@ -95,10 +94,14 @@
 </template>
 
 <script>
-
 export default {
   name: 'Home',
-  components: {}
+  components: {},
+  data() {
+    return {
+      softwareClass: 'uk-card uk-card-small uk-card-primary uk-card-hover uk-card-body uk-light uk-flex uk-flex-middle uk-flex-center'
+    }
+  }
 }
 </script>
 
